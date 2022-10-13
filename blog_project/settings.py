@@ -26,11 +26,9 @@ SECRET_KEY = 'django-insecure-l(55eml6we+oj(ni3l*5lr%sqlit6k89ix#ybrp2!oa=!&y16!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['*']
 
 # Application definition
-
 INSTALLED_APPS = [
     'blog.apps.BlogConfig', # new
     'accounts.apps.AccountsConfig', # newer
